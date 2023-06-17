@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    
 }
 
 #container{
@@ -20,18 +21,20 @@ body{
 }
 
 #circle1{
-    background: linear-gradient(orange,white);
+    background: linear-gradient(orangered,orange);
     left: -20%;
     top: -80px;
+    color:orange
 }
 
 #circle2{
-    background: linear-gradient(to right,teal,white);
+    background: linear-gradient(to right,royalblue,cornflowerblue,lightblue);
     right: -20%;
     bottom: -60px;
 }
 
 #formbox{
+    
     width: 350px;
     height: 490px;
     transform: translate(-50%,-50%);
@@ -44,24 +47,22 @@ body{
     backdrop-filter: blur(6px);
     background-color: rgba(255,255,255,0.3);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    border: none;
 }
 
 .both{
     width: 194px;
-    font-family: monospace;
-    font-weight: 100;
+    font-family: 'Poppins', sans-serif;  font-weight: 100;
     color: whitesmoke;
     padding: 7px;
     height: 15px;
     border-radius: 3px;
-
-
 }
 
 h3{
     font-size: 30px;
     font-weight: 500;
-    font-family:monospace;
+    font-family: 'Poppins', sans-serif;    
     color: ghostwhite;
     text-align: center;
     position: relative;
@@ -72,9 +73,7 @@ label{
     font-weight: 500;
     font-size: 17px;
     margin-top: 40px;
+    color: whitesmoke;
     
 }
 
-#userbox{
-    color: white;
-}
