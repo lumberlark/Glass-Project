@@ -76,6 +76,34 @@ label{
     color: whitesmoke;
     position: relative;
     right: 6px;
+   
     
 }
 
+button{
+    padding: 4px;
+    width: 160px;
+    border-radius: 3px;
+    border:none;
+    border-color: lightgray;
+    box-shadow: 0 2px 3px 1px lightgray;
+    
+}
+
+
+#buttonfont{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+}
+
+#userbox{
+    border-color: lightgray;
+    box-shadow: 0 2px 3px 1px lightgray;
+    border: none;
+}
+    
+#passwordbox{
+    border-color: lightgray;
+    box-shadow: 0 2px 3px 1px lightgray;
+    border: none;
+}
