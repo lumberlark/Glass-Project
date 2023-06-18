@@ -54,13 +54,13 @@ body{
     width: 210px;
     font-family: 'Poppins', sans-serif;  font-weight: 100;
     color: whitesmoke;
-    padding: 7px;
-    height: 15px;
+    padding: 4px;
+    height: 25px;
     border-radius: 3px;
 }
 
 h3{
-    font-size: 30px;
+    font-size: 38px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;    
     color: ghostwhite;
@@ -71,11 +71,12 @@ h3{
 label{
     display: block;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 27px;
     margin-top: 40px;
     color: whitesmoke;
     position: relative;
-    right: 6px;
+    left: 24px;
+    bottom: 10px;
    
     
 }
@@ -87,6 +88,10 @@ button{
     border:none;
     border-color: lightgray;
     box-shadow: 0 2px 3px 1px lightgray;
+    position: relative;
+    top: 17px;
+    text-align: center;
+    right: 3px;
     
 }
 
@@ -106,4 +111,41 @@ button{
     border-color: lightgray;
     box-shadow: 0 2px 3px 1px lightgray;
     border: none;
+}
+
+#strong{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icons{
+    width: 350px;
+    margin: 0, auto;
+    position: relative;
+    top: 40px;
+}
+
+#linkedin{
+    position: absolute;
+    left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px lightgray;
+    background-color: ghostwhite;
+}
+
+#google{
+    position: absolute;
+    left: 145px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px lightgray;
+    background-color: ghostwhite;
+}
+
+#twitter{
+    position: absolute;
+    right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px lightgray;
+    background-color: ghostwhite;
 }
